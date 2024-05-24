@@ -1,4 +1,132 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+.navbar {
+    background-color: #fff !important;
+    padding: 40px 0;
+}
+
+.navbar-brand {
+    width: 80px;
+    margin-left: 30px;
+}
+
+.navbar-brand img {
+    width: 120px;
+    max-width: 100%;
+}
+
+.navbar-collapse {
+    position: absolute;
+    right: 30px;
+    top: 35%;
+}
+
+.navbar-collapse a {
+    font-weight: 700;
+    color: #00000070;
+    padding: 0 15px !important;
+}
+
+.buy-btn {
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.description-box {
+    padding: 30% 0 0 10px;
+}
+
+.description-box p {
+    margin-top: 20px;
+    color: #00000070;
+}
+
+.carousel-item .row {
+    padding: 20px;
+}
+
+.carousel {
+    background-image: url("img/bg-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cat-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-head p {
+    color: orange;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cat-head h3{
+    margin-left: 20px;
+}
+.card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0000002c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #00000070;
+    margin: 20px;
+}
+
+.card img {
+    width: 300px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#cat-margin {
+    margin-bottom: 60px;
+}
+
+.cat h1 {
+    text-align: center;
+}
+
+.cat-img {
+    padding: 30px;
+}
+
+.cat-img img {
+    margin: 30px 0px;
+    padding: 30px;
+    width: 150px;
+    border: 1px solid #0000002c;
+    box-shadow: 2px 2px 10px #00000070;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.left-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pale-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cat-margin:nth-child(5){
+    padding: 110px 0 50px 0;
 }
